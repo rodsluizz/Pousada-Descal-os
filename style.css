@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(/green-leaf-forest.jpg);
+}
+
+#header{
+    border-bottom: 2px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+}
+
+#header:hover{
+    animation-name: borderheader;
+    animation-duration: 3s;
+}
+
+#busca_header{
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    border-radius: 6px;
+    border: none;
+}
+
+header #h1{
+    font-family: 'Courgette', 'cursive';
+    font-size: 28px;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#h1:hover{
+    transition: 3s;
+    font-size: 31px;
+}
+
+@keyframes borderheader {
+    to {box-shadow: 0px 0px 10px rgb(255, 255, 255);}
+}
+
+#menuinferior{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.btminf{
+    list-style-type: none;
+    padding: 15px;
+    font-family: 'Comfortaa', 'cursive';
+}
+
+.btminf:hover{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.274);
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.158);
+}
+
+#menuinferior .btminf a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14pt;
+}
+
+
